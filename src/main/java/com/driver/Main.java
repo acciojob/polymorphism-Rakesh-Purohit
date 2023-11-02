@@ -17,21 +17,23 @@ public class Main {
         double result3 = p.product(2.5, 3.5);
         System.out.println("Result 3: " + result3);
     }
+    
+   public static class Product {
+        // Task 3: Overloaded method with two integers
+        public int product(int x, int y) {
+            return x * y;
+        }
+
+        // Task 4: Overloaded method with three integers
+        public int product(int x, int y, int z) {
+            return x * y * z;
+        }
+
+        // Task 5: Overloaded method with two double values
+        public double product(double x, double y) {
+            return x * y;
+        }
+    }
 }
 
-class Product {
-    // Task 3: Overloaded method with two integers
-    public int product(int x, int y) {
-        return x * y;
-    }
 
-    // Task 4: Overloaded method with three integers
-    public int product(int x, int y, int z) {
-        return x * y * z;
-    }
-
-    // Task 5: Overloaded method with two double values
-    public double product(double x, double y) {
-        return x * y;
-    }
-}
